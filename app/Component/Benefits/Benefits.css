@@ -1,0 +1,193 @@
+.bene-container {
+    background: #F0F8FF;
+    padding: 1.5rem;
+    width: 100%;
+    display: flex;
+    row-gap: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.sec-left {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    padding-left: 9rem;
+    text-align: left; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;  
+    gap: 0.5rem;
+}
+
+.bene-container > div {
+    flex: 1;
+}
+.sec-right {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.content {
+    padding-bottom: 2rem;
+}
+
+.icon {
+    padding-right : 20px;
+    padding-top: 10px;
+}
+
+@media (max-width:768px) {
+    .sec-left {
+        padding-left: 4rem;
+    }
+    .sec-left h1 {
+        font-size: 1.3rem;
+    }
+    .sec-left h3 {
+        font-size: 1rem;
+    }
+    .sec-right h3{
+        font-size: 0.8rem;
+    }
+    .sec-right   {
+        font-size: small;
+    }
+}
+@media (max-width:600px) {
+    .bene-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .sec-left {
+        padding-left: 2rem;
+    }
+    .sec-left h1 {
+        font-size: 2rem;
+    }
+    .sec-left h3 {
+        font-size: 1.2rem;
+    }
+    .sec-right h3{
+        font-size: 1rem;
+    }
+    .sec-right   {
+        font-size: small;
+    }
+}
+@media (max-width:375px) {
+    .bene-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .sec-left {
+        padding-left: 0.8rem;
+    }
+    .sec-left h1 {
+        font-size: 1.6rem;
+    }
+    .sec-left h3 {
+        font-size: 1rem;
+    }
+    .sec-right h3{
+        font-size: 1rem;
+    }
+    .sec-right   {
+        font-size: small;
+    }
+}
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:900|Raleway:400,400i,700,700i);
+
+:root {
+  --black: #1d1f20;
+  --blue: #e3e8ff;
+  --green: #90a7d1;
+  --yellow: #e7e5de;
+  --white: white;
+}
+
+.boxshadow {
+  box-shadow: 0.25rem 0.25rem 0.6rem rgba(0,0,0,0.05), 0 0.5rem 1.125rem rgba(75,0,0,0.05);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ol.gradient-list {
+  counter-reset: gradient-counter;
+  list-style: none;
+  margin: 1.75rem 0;
+  padding-left: 1rem;
+}
+ol.gradient-list > li {
+  background: rgb(248, 248, 248);
+  border-radius: 0 0.5rem 0.5rem 0.5rem;
+  box-shadow: 0;
+  counter-increment: gradient-counter;
+  margin-top: 1rem;
+  min-height: 3rem;
+  padding: 1rem 1rem 1rem 3rem;
+  position: relative;
+}
+ol.gradient-list > li::before,
+ol.gradient-list > li::after {
+  background: linear-gradient(135deg, var(--blue) 20%, var(--green) 90%);
+  border-radius: 1rem 1rem 0 1rem;
+  content: '';
+  height: 3rem;
+  left: -1rem;
+  overflow: hidden;
+  position: absolute;
+  top: -1rem;
+  width: 3rem;
+}
+ol.gradient-list > li::before {
+  align-items: flex-end;
+  background: var(--blue);
+  box-shadow: 0;
+  content: counter(gradient-counter);
+  color: var(--black);
+  display: flex;
+  font: 900 1.5em/1 'Montserrat';
+  justify-content: flex-end;
+  padding: 0.125em 0.25em;
+  position: absolute;
+  z-index: 1;
+}
+ol.gradient-list > li:nth-child(10n+1)::before {
+  background: linear-gradient(135deg, rgba(var(--green), 0.2) 0%,rgba(var(--yellow), 0.2) 100%);
+}
+ol.gradient-list > li:nth-child(10n+2)::before {
+  background: linear-gradient(135deg, rgba(var(--green), 0.4) 0%,rgba(var(--yellow), 0.4) 100%);
+}
+ol.gradient-list > li:nth-child(10n+3)::before {
+  background: linear-gradient(135deg, rgba(var(--green), 0.6) 0%,rgba(var(--yellow), 0.6) 100%);
+}
+ol.gradient-list > li:nth-child(10n+4)::before {
+  background: linear-gradient(135deg, rgba(var(--green), 0.8) 0%,rgba(var(--yellow), 0.8) 100%);
+}
+ol.gradient-list > li:nth-child(10n+5)::before {
+  background: linear-gradient(135deg, rgba(var(--green), 1) 0%,rgba(var(--yellow), 1) 100%);
+}
+ol.gradient-list > li:nth-child(10n+6)::before {
+  background: linear-gradient(135deg, rgba(var(--green), 0.8) 0%,rgba(var(--yellow), 0.8) 100%);
+}
+ol.gradient-list > li:nth-child(10n+7)::before {
+  background: linear-gradient(135deg, rgba(var(--green), 0.6) 0%,rgba(var(--yellow), 0.6) 100%);
+}
+ol.gradient-list > li:nth-child(10n+8)::before {
+  background: linear-gradient(135deg, rgba(var(--green), 0.4) 0%,rgba(var(--yellow), 0.4) 100%);
+}
+ol.gradient-list > li:nth-child(10n+9)::before {
+  background: linear-gradient(135deg, rgba(var(--green), 0.2) 0%,rgba(var(--yellow), 0.2) 100%);
+}
+ol.gradient-list > li:nth-child(10n+10)::before {
+  background: linear-gradient(135deg, rgba(var(--green), 0) 0%,rgba(var(--yellow), 0) 100%);
+}
+ol.gradient-list > li + li {
+  margin-top: 2rem;
+}

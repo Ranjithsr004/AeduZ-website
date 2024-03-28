@@ -1,0 +1,124 @@
+.containner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.cardd {
+    width: 270px;
+    height: 300px;
+    padding: 20px;
+    margin-left: -10px;
+    margin-top: 10px;
+    align-items: center;
+    border-radius: 10px;
+    position: relative;
+    background: #F0F8FF;
+}
+.cardd img {
+    height: 96px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.cardd h2 {
+    padding: 2px 0;
+    font-size: 1.5rem;
+    margin-top: 25px;
+    text-align: center;
+}
+.cardd p {
+    font-size: 15px;
+    text-align: center;
+    padding-top: -10px;
+}
+
+
+  /* @media (max-width:768px)
+  {
+    .containner .cardd {
+        width: 200px;
+        height: 200px;
+    }
+    .containner .cardd img {
+        height: 60px;
+    }
+    .containner .cardd h2 {
+        padding: 2px 0;
+        font-size: 1rem;
+        margin-top: 15px;
+        text-align: center;
+    }
+    .containner .cardd p {
+        font-size: 10px;
+        text-align: center;
+        padding-top: -10px;
+    }
+    
+  } */
+  /* @media (max-width:600px) {
+    .containner .cardd {
+        width: 150px;
+        height: 160px;
+        margin-left: 15px;
+    }
+    .containner .cardd img {
+        height: 40px;
+    }
+    .containner .cardd h2 {
+        padding: 2px 0;
+        font-size: 0.8rem;
+        margin-top: 5px;
+        text-align: center;
+    }
+    .containner .cardd p {
+        font-size: 9px;
+        text-align: center;
+        padding-top: -10px;
+    }
+  }
+
+  @media (max-width:425px) {
+    .containner .cardd {
+        margin-left: 0px;
+    }
+  } */
+
+  @media (max-width:400px) {
+    .cardd{
+        width: 230px; 
+        height: 250px;
+    }
+    .containner .cardd {
+        margin-left: -25px;
+    }
+    /* .containner .cardd img {
+        display: none;
+    } */
+    .containner .cardd h2 {
+        font-size: 1.2rem;
+    }
+    .containner .cardd p {
+        font-size: 13px;
+    }
+  }
+  
+  /* @media (max-width:320px) {
+    .containner .cardd {
+        margin-left: -10px;
+        width: 150px;
+        height: 130px;
+    }
+    .containner .cardd img {
+        display: none;
+    }
+    .containner .cardd h2 {
+        font-size: 0.9rem;
+        margin-top: -2px;
+    }
+    .containner .cardd p {
+        font-size: 10px;
+        margin-top: 10px;
+    }
+  } */

@@ -1,0 +1,46 @@
+.boody h1 {
+  margin-top: 9rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  margin-top: 0rem;
+  padding-top: 5rem;
+  text-align: center;
+}
+
+.wraper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2.5rem;
+  padding-bottom: 5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.boody {
+top: 0;
+margin: 0;
+align-items: center;
+padding-top: 0px;
+justify-content: center;
+padding: 0 5%;
+}  
+
+@media (max-width: 1025px)  {
+.boody h1 {
+  font-size: 2.3rem;
+}
+}
+@media (max-width:768px)
+{
+.boody h1 {
+  font-size: 2.1rem;
+}
+}
+@media (max-width:600px) {
+.boody h1 {
+  font-size: 1.8rem;
+}
+}
