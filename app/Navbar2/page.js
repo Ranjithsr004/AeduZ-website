@@ -6,10 +6,10 @@ import Link from 'next/link'
 
 const navigation = [
     { name: 'Home', href: '/' },
-    { name: 'My Profile', href: './Component/My_Profile' },
-    { name: 'Call History', href: './Component/' },
-    { name: 'Book Now', href: './Component/TableData' },
-    { name: 'Contact Us', href: 'ContactPage' }
+    { name: 'My Profile', href: '/Component/My_Profile' },
+    { name: 'Call History', href: '/Component/' },
+    { name: 'Book Now', href: '/Component/TableData' },
+    { name: 'Contact Us', href: '/ContactPage' }
   ]
 
   function Navbar2() {
