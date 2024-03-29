@@ -70,13 +70,15 @@ const RegisterNowPage = () => {
 
           {/* END OF FORMS */}
 
-          <Link
-            href="Registration"
-            type="submit"
-            className="bg-[#3B71CA] text-center w-full rounded bg-primary px-7 pb-2.5 pt-3 text-sm font-medium uppercase leading-normal text-white shadow-primary-3 transition duration-150 ease-in-out hover:bg-primary-accent-300 hover:bg-[#1266F1]"
-            data-twe-ripple-color="light">
-            Register Now
-          </Link>
+          <div className='py-5'>
+            <Link
+              href="Registration"
+              type="submit"
+              className="bg-[#3B71CA] text-center w-full rounded bg-primary px-[11vh] md:px-[31vh] py-4 text-sm font-medium uppercase leading-normal text-white shadow-primary-3 transition duration-150 ease-in-out hover:bg-primary-accent-300 hover:bg-[#1266F1]"
+              data-twe-ripple-color="light">
+              Register Now
+            </Link>
+          </div>
 
           <h1 className='font-bold text-xl text-black text-center my-3'>OR</h1>
 
