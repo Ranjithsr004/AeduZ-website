@@ -4,6 +4,8 @@ import WhoAreWe from "./Home.js/WhoAreWe";
 import Navbar from "./Navbar/page";
 import OurTeam from "./Component/OurTeam/OurTeam";
 import Items from "./Component/Items/Items";
+import Footer from "./Component/Footer/Footer";
+import Testimonial from "./Component/Testimonial/Testimonial";
 
 export default function Home() {
   return (
@@ -14,6 +16,8 @@ export default function Home() {
         <Items />
         <Benefits />
         <OurTeam />
+        {/* <Testimonial /> */}
+        <Footer />
     </div>
   );
 }
