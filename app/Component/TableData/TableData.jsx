@@ -56,7 +56,7 @@ const TableData = () => {
       return (
         <div>
           <Navbar2 />
-          <div className="container mx-auto py-20 px-20 ">
+          <div className="container mx-auto py-20 md:px-20 px-2">
             <h1 className="text-3xl font-bold my-4 mt-12">Active Calls</h1>
             <CallTable data={data} />
             <h1 className="text-3xl font-bold my-4 pt-8 mt-12">Past Calls</h1>

@@ -6,25 +6,25 @@ const CheckOut1 = () => {
     <div className='pt-28'>
       <div className='flex justify-around'>
         <div>
-          <div className='size-12 rounded-full bg-blue-500'>  </div>
+          <div className='md:size-12 size-8 rounded-full bg-blue-500'>  </div>
             <div className='pt-2'>
               <h4 className='font-semibold text-xl' >Step 1</h4>
             </div>
         </div>
         <div>
-            <div className='size-12 rounded-full bg-blue-900'> </div>
+            <div className='md:size-12 size-8 rounded-full bg-blue-900'> </div>
             <div className='pt-2'>
               <h4>Step 2</h4>
             </div>
         </div>
         <div>
-            <div className='size-12 rounded-full bg-blue-900'> </div>
+            <div className='md:size-12 size-8 rounded-full bg-blue-900'> </div>
             <div className='pt-2'>
               <h4>Step 3</h4>
             </div>
         </div>
         <div>
-            <div className='size-12 rounded-full bg-blue-900'> </div>
+            <div className='md:size-12 size-8 rounded-full bg-blue-900'> </div>
             <div className='pt-2'>
               <h4>Step 4</h4>
             </div>
