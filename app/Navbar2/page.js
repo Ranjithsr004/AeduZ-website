@@ -7,8 +7,8 @@ import Link from 'next/link'
 const navigation = [
     { name: 'Home', href: '/' },
     { name: 'My Profile', href: './Component/My_Profile' },
-    { name: 'Call History', href: '/' },
-    { name: 'Book Now', href: '/' },
+    { name: 'Call History', href: './Component/TableData' },
+    { name: 'Book Now', href: './Componenet/' },
     { name: 'Contact Us', href: 'ContactPage' }
   ]
 
