@@ -2,7 +2,7 @@ import React from 'react'
 
 const OurTeam = () => {
   return (
-    <div className=''>
+    <div className='py-10'>
       <div className='text-center mx-auto w-[80vw] md:w-[60vw]'>
         <h1 className='pt-10 font-semibold text-5xl text-[#37517e]'>Meet Our Team</h1>
         <p className='md:text-base text-xs pt-6 text-[grey]'>We are to-be graduates from IIT Bombay, aspires to deliver high quality mentorship through our qualified mentors
