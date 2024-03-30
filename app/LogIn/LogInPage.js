@@ -19,14 +19,14 @@ const LogInPage = () => {
       }, []);
       
   return (
-  <div className='h-screen bg-white'>
+  <div className='h-screen bg-white md:pt-0 pt-10'>
     <div className="container h-full px-6 py-24">
     <div
       className="flex h-full flex-wrap items-center justify-center lg:justify-between">
 
       <div className="md:block hidden mb-12 md:mb-0 md:w-8/12 lg:w-6/12">
         <img
-          src="https://tecdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.svg"
+          src="https://t3.ftcdn.net/jpg/06/77/70/46/360_F_677704687_e82VnF5bjL0pcrgI3KAAdT7x7ihlRLF8.jpg"
           className="w-full"
           alt="Phone image" />
       </div>

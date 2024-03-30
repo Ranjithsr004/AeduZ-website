@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react'
 import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
 
@@ -17,16 +18,16 @@ const Footer = () => {
               <h2 className="text-lg font-semibold mb-4">Important Links</h2>
               <ul>
                 <li className="mb-2">
-                  <a href="#">Home</a>
+                  <Link href="/">Home</Link>
                 </li>
                 <li className="mb-2">
-                  <a href="#">About Us</a>
+                  <Link href="/">About Us</Link>
                 </li>
                 <li className="mb-2">
-                  <a href="#">Institutions</a>
+                  <Link href="./Institutions">Institutions</Link>
                 </li>
                 <li className="mb-2">
-                  <a href="#">Contact Us</a>
+                  <Link href="./ContactPage">Contact Us</Link>
                 </li>
               </ul>
             </div>
