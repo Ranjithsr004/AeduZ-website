@@ -4,7 +4,7 @@ import Link from 'next/link'
 const CheckOut4 = () => {
   return (
     <div className='pt-28'>
-      <div className='flex justify-around'>
+      <div className='hidden md:flex justify-around'>
         <div>
           <div className='size-12 rounded-full bg-blue-900'>  </div>
             <div className='pt-2'>
@@ -14,7 +14,7 @@ const CheckOut4 = () => {
         <div>
             <div className='size-12 rounded-full bg-blue-900'> </div>
             <div className='pt-2'>
-              <h4 className='font-semibold text-xl' >Step 2</h4>
+              <h4>Step 2</h4>
             </div>
         </div>
         <div>
@@ -26,7 +26,7 @@ const CheckOut4 = () => {
         <div>
             <div className='size-12 rounded-full bg-blue-500'> </div>
             <div className='pt-2'>
-              <h4>Step 4</h4>
+              <h4 className='font-semibold text-xl' >Step 4</h4>
             </div>
         </div>
       </div>
