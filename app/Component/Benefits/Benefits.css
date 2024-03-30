@@ -61,6 +61,7 @@
     }
     .sec-left {
         padding-left: 2rem;
+        margin-top: -3rem;
     }
     .sec-left h1 {
         font-size: 2rem;
@@ -73,6 +74,10 @@
     }
     .sec-right   {
         font-size: small;
+        margin-top: -5rem;
+    }
+    .ol.gradient-list > li::before {
+      font-size: 12px;
     }
 }
 @media (max-width:375px) {
@@ -94,6 +99,9 @@
     }
     .sec-right   {
         font-size: small;
+    }
+    .ol.gradient-list > li::before {
+      font-size: 12px;
     }
 }
 
@@ -122,6 +130,7 @@ ol.gradient-list {
   list-style: none;
   margin: 1.75rem 0;
   padding-left: 1rem;
+  
 }
 ol.gradient-list > li {
   background: rgb(248, 248, 248);
@@ -132,6 +141,7 @@ ol.gradient-list > li {
   min-height: 3rem;
   padding: 1rem 1rem 1rem 3rem;
   position: relative;
+  
 }
 ol.gradient-list > li::before,
 ol.gradient-list > li::after {
@@ -157,6 +167,7 @@ ol.gradient-list > li::before {
   padding: 0.125em 0.25em;
   position: absolute;
   z-index: 1;
+  font-size: 25px;
 }
 ol.gradient-list > li:nth-child(10n+1)::before {
   background: linear-gradient(135deg, rgba(var(--green), 0.2) 0%,rgba(var(--yellow), 0.2) 100%);
