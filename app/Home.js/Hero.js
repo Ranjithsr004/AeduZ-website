@@ -22,7 +22,7 @@ function Hero() {
         </div>
 
         <div className='md:w-[50%] flex justify-center items-center'>
-          <img className='md:rounded-3xl rounded-2xl h-[25vh] md:h-[25vw] w-[60vw] md:w-[35vw]' src='https://img.freepik.com/free-vector/university-lecture-hall-with-teacher-students-sitting-desks-concept-education-conference-public-seminar-vector-flat-illustration-speaker-audience-college-classroom_107791-11162.jpg?size=626&ext=jpg&ga=GA1.1.1746878901.1686458492&semt=ais' alt='HOME PAGE IMAGE'/>
+          <img className='md:rounded-3xl rounded-2xl h-[25vh] md:h-[35vh] w-[70vw] md:w-[35vw]' src='https://trafft.com/wp-content/uploads/2022/10/6461-768x364.jpg' alt='HOME PAGE IMAGE'/>
         </div>
 
       </div>
