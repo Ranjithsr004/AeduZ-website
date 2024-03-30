@@ -22,7 +22,7 @@ const InstitutionPage = () => {
             </div>
             <div className='pt-10 md:flex flex justify-around w-full'>
             <img className='rounded-md md:h-[40vh] h-[30vh] md:w-[35%] w-[80%]' src='https://mycareersaathi.com/wp-content/uploads/2023/02/Career-Counselling-After-12th.jpg'/>
-            <img className='hidden md:block rounded-md md:h-[42vh] md:w-[35%]' src='https://i0.wp.com/www.mindgroom.com/wp-content/uploads/2021/08/online-career-counselling-sessions-1-e1627978053936.jpg?resize=562%2C565&ssl=1'/>
+            {/* <img className='hidden md:block rounded-md md:h-[42vh] md:w-[35%]' src='https://i0.wp.com/www.mindgroom.com/wp-content/uploads/2021/08/online-career-counselling-sessions-1-e1627978053936.jpg?resize=562%2C565&ssl=1'/> */}
             </div>
         </div>
         
