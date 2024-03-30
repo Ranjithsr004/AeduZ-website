@@ -8,8 +8,8 @@ const InstitutionPage = () => {
         <Navbar />
         <div className='h-[80vh] mt-6 md:mt-14'>
             <div className='text-center'>
-                <h1 className='md:text-5xl text-2xl font-bold pb-10 pt-24 text-blue-800'><span className='font-light'>Welcome </span> Institutes,</h1>
-                <h1 className='md:text-5xl text-3xl font-semibold m-auto md:px-80 pb-10 '>Partner with AeduZ for Academic Excellence</h1>
+                <h1 className='md:text-5xl text-3xl font-bold pb-6 md:pb-10 pt-24 text-blue-800'><span className='font-light'>Welcome </span> Institutes,</h1>
+                <h1 className='md:text-5xl text-2xl font-semibold m-auto md:px-80 pb-10 '>Partner with AeduZ for Academic Excellence</h1>
             </div>
             <div className='flex justify-center md:mb-2 mb-10'>
                 <Link

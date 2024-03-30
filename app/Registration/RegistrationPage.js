@@ -5,11 +5,11 @@ const RegistrationPage = () => {
         <div>
           <button
             type="submit"
-            className="bg-[#3B71CA] inline-block absolute md:top-10 top-8 md:right-6 right-4 rounded bg-primary px-2 pb-2.5 pt-3 md:text-sm text-xs font-medium uppercase leading-normal text-white hover:bg-[#1266F1]"
+            className="bg-[#3B71CA] inline-block absolute md:top-16 top-16 md:right-6 right-4 rounded bg-primary px-2 pb-2.5 pt-3 md:text-sm text-xs font-medium uppercase leading-normal text-white hover:bg-[#1266F1]"
             data-twe-ripple-color="light">
             SKIP NOW {">"}
           </button>
-            <div className='pt-20'>
+            <div className='md:pt-24 pt-28'>
                 <h1 className='text-center md:text-4xl text-2xl font-semibold'>Registration</h1>
                 <p className='text-center md:text-base text-sm py-2'>Upskill yourself by optmizing your study strategies</p>
             </div>

@@ -33,10 +33,10 @@ const people = [
   
   export default function Example() {
     return (
-      <div className="bg-white mt-10 py-24 sm:py-32 md:mt-20">
+      <div className="bg-white mt-10 pt-36 pb-20 sm:py-32 md:mt-20">
         <div className="mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-3">
           <div className="max-w-2xl">
-            <h2 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-4xl">Let's Grow Together Get all these Partner Benefits</h2>
+            <h2 className="text-center md:text-left md:text-4xl font-bold tracking-tight text-gray-900 text-2xl">Let's Grow Together Get all these Partner Benefits</h2>
             {/* <p className="mt-6 text-lg leading-8 text-gray-600">
               Libero fames augue nisl porttitor nisi, quis. Id ac elit odio vitae elementum enim vitae ullamcorper
               suspendisse.
