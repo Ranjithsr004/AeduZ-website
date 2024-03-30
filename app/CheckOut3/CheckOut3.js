@@ -44,6 +44,7 @@ const CheckOut3 = () => {
             <div>
                 <h1 className='text-blue-800 py-6 text-center md:text-4xl text-2xl font-semibold'>Step 3: Select your Pricing Plan</h1>
             </div>
+
               <div className='w-[60vw] mx-auto'>
                 <div className='md:flex md:w-[80%] mx-auto md:h-[22vh] md:gap-10 mb-6'>
                   <div className='md:px-10 px-2 pb-2 md:mb-0 mb-6 md:w-[50%] border-[1px] border-[grey] rounded-md'>
@@ -60,13 +61,22 @@ const CheckOut3 = () => {
                   </div>
                 </div>
                 <h3 className='py-1 text-base md:text-xl font-semibold'>Pricing Plan:</h3>
+      
                 <div className="relative mb-3" data-twe-input-wrapper-init>
-                    <input
+                    {/* <input
                       type="text"
                       className="peer block min-h-[auto] w-full rounded border-[1px] border-[grey] bg-transparent px-3 py-[0.32rem] leading-[2.15]"
                       id="exampleFormControlInput3"
-                      placeholder="Pricing Plan:" />
+                      placeholder="Pricing Plan:" /> */}
+                      <div className="w-full rounded border-[1px] border-[grey] bg-transparent px-3 py-[0.32rem] leading-[2.15]">
+                        <select className='w-full outline-none' name="dropdown" id="dropdown">
+                          <option value="-1">Select</option>
+                          <option value="Basic">Basic</option>
+                          <option value="Advanced">Advanced</option>
+                        </select>
+                      </div>
                 </div>
+
               </div>
 
               <div className='flex justify-between'>
