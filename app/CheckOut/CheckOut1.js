@@ -42,7 +42,7 @@ const CheckOut1 = () => {
         <div className='md:h-[60vh] w-[80vw] mx-auto border-[2px] rounded-2xl'>
 
             <div>
-                <h1 className='py-6 text-center md:text-4xl text-2xl font-semibold'>Step 1:  Complete Your Profile</h1>
+                <h1 className='text-blue-800 py-6 text-center md:text-4xl text-2xl font-semibold'>Step 1:  Complete Your Profile</h1>
             </div>
               <div className='w-[60vw] mx-auto'>
                 <div className="relative mb-3" data-twe-input-wrapper-init>

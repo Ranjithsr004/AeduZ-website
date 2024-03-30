@@ -42,7 +42,7 @@ const CheckOut2 = () => {
         <div className='md:h-[60vh] w-[80vw] mx-auto border-[2px] rounded-2xl'>
 
             <div>
-                <h1 className='py-6 text-center md:text-4xl text-2xl font-semibold'>Step 2: Schedule Your Call</h1>
+                <h1 className='text-blue-800 py-6 text-center md:text-4xl text-2xl font-semibold'>Step 2: Schedule Your Call</h1>
             </div>
               <div className='w-[60vw] mx-auto'>
                 <h3 className='py-1 text-base md:text-xl font-semibold'>Booking Date:</h3>

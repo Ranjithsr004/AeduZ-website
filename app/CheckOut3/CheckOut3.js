@@ -42,7 +42,7 @@ const CheckOut3 = () => {
         <div className='md:h-[60vh] w-[80vw] mx-auto border-[2px] rounded-2xl'>
 
             <div>
-                <h1 className='py-6 text-center md:text-4xl text-2xl font-semibold'>Step 3: Select your Pricing Plan</h1>
+                <h1 className='text-blue-800 py-6 text-center md:text-4xl text-2xl font-semibold'>Step 3: Select your Pricing Plan</h1>
             </div>
               <div className='w-[60vw] mx-auto'>
                 <div className='flex md:w-[80%] mx-auto h-[22vh] md:gap-10 gap-4 mb-6'>
