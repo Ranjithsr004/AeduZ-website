@@ -39,46 +39,51 @@ const CheckOut1 = () => {
 
         {/* FORM SECTION */}
 
-        <div className='md:h-[60vh] w-[80vw] mx-auto border-[2px] rounded-2xl'>
+        <div className='md:h-[80vh] w-[80vw] mx-auto border-[2px] rounded-2xl'>
 
             <div>
                 <h1 className='text-blue-800 py-6 text-center md:text-4xl text-2xl font-semibold'>Step 1:  Complete Your Profile</h1>
             </div>
               <div className='w-[60vw] mx-auto'>
                 <div className="relative mb-3" data-twe-input-wrapper-init>
-                    <input
-                      type="text"
-                      className="peer block min-h-[auto] w-full rounded border-[1px] border-[grey] bg-transparent px-3 py-[0.32rem] leading-[2.15]"
-                      id="exampleFormControlInput3"
-                      placeholder="Gender :" />
+                  <h3 className='py-1 text-base md:text-xl font-semibold'>Gender:</h3>
+                  <input
+                    type="text"
+                    className="peer block min-h-[auto] w-full rounded border-[1px] border-[grey] bg-transparent px-3 py-[0.32rem] leading-[2.15]"
+                    id="exampleFormControlInput3"
+                    placeholder="Gender :" />
                 </div>
                 <div className="relative mb-3" data-twe-input-wrapper-init>
-                    <input
-                      type="text"
-                      className="peer block min-h-[auto] w-full rounded border-[1px] border-[grey] bg-transparent px-3 py-[0.32rem] leading-[2.15]"
-                      id="exampleFormControlInput3"
-                      placeholder="Competitive Exam :" />
+                  <h3 className='py-1 text-base md:text-xl font-semibold'>Competitive Exam :</h3>
+                  <input
+                    type="text"
+                    className="peer block min-h-[auto] w-full rounded border-[1px] border-[grey] bg-transparent px-3 py-[0.32rem] leading-[2.15]"
+                    id="exampleFormControlInput3"
+                    placeholder="Competitive Exam :" />
                 </div>
                 <div className="relative mb-3" data-twe-input-wrapper-init>
-                    <input
-                      type="text"
-                      className="peer block min-h-[auto] w-full rounded border-[1px] border-[grey] bg-transparent px-3 py-[0.32rem] leading-[2.15]"
-                      id="exampleFormControlInput3"
-                      placeholder="From Where You Heard About Us :" />
+                  <h3 className='py-1 text-base md:text-xl font-semibold'>From Where You Heard About Us :</h3>
+                  <input
+                    type="text"
+                    className="peer block min-h-[auto] w-full rounded border-[1px] border-[grey] bg-transparent px-3 py-[0.32rem] leading-[2.15]"
+                    id="exampleFormControlInput3"
+                    placeholder="From Where You Heard About Us :" />
                 </div>
                 <div className="relative mb-3" data-twe-input-wrapper-init>
-                    <input
-                      type="text"
-                      className="peer block min-h-[auto] w-full rounded border-[1px] border-[grey] bg-transparent px-3 py-[0.32rem] leading-[2.15]"
-                      id="exampleFormControlInput3"
-                      placeholder="Mobile No :" />
+                  <h3 className='py-1 text-base md:text-xl font-semibold'>Mobile No :</h3>
+                  <input
+                    type="text"
+                    className="peer block min-h-[auto] w-full rounded border-[1px] border-[grey] bg-transparent px-3 py-[0.32rem] leading-[2.15]"
+                    id="exampleFormControlInput3"
+                    placeholder="Mobile No :" />
                 </div>
                 <div className="relative mb-3" data-twe-input-wrapper-init>
-                    <input
-                      type="text"
-                      className="peer block min-h-[auto] w-full rounded border-[1px] border-[grey] bg-transparent px-3 py-[0.32rem] leading-[2.15]"
-                      id="exampleFormControlInput3"
-                      placeholder="Coaching Name :" />
+                  <h3 className='py-1 text-base md:text-xl font-semibold'>Coaching Name :</h3>
+                  <input
+                    type="text"
+                    className="peer block min-h-[auto] w-full rounded border-[1px] border-[grey] bg-transparent px-3 py-[0.32rem] leading-[2.15]"
+                    id="exampleFormControlInput3"
+                    placeholder="Coaching Name :" />
                 </div>
               </div>
 
