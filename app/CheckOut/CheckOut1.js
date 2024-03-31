@@ -51,7 +51,7 @@ const CheckOut1 = () => {
                     type="text"
                     className="peer block min-h-[auto] w-full rounded border-[1px] border-[grey] bg-transparent px-3 py-[0.32rem] leading-[2.15]"
                     id="exampleFormControlInput3"
-                    placeholder="Gender :" />
+                    placeholder="Gender.." />
                 </div>
                 <div className="relative mb-3" data-twe-input-wrapper-init>
                   <h3 className='py-1 text-base md:text-xl font-semibold'>Competitive Exam :</h3>
@@ -59,7 +59,7 @@ const CheckOut1 = () => {
                     type="text"
                     className="peer block min-h-[auto] w-full rounded border-[1px] border-[grey] bg-transparent px-3 py-[0.32rem] leading-[2.15]"
                     id="exampleFormControlInput3"
-                    placeholder="Competitive Exam :" />
+                    placeholder="Competitive Exam.." />
                 </div>
                 <div className="relative mb-3" data-twe-input-wrapper-init>
                   <h3 className='py-1 text-base md:text-xl font-semibold'>From Where You Heard About Us :</h3>
@@ -67,7 +67,7 @@ const CheckOut1 = () => {
                     type="text"
                     className="peer block min-h-[auto] w-full rounded border-[1px] border-[grey] bg-transparent px-3 py-[0.32rem] leading-[2.15]"
                     id="exampleFormControlInput3"
-                    placeholder="From Where You Heard About Us :" />
+                    placeholder="From Where You Heard About Us.." />
                 </div>
                 <div className="relative mb-3" data-twe-input-wrapper-init>
                   <h3 className='py-1 text-base md:text-xl font-semibold'>Mobile No :</h3>
@@ -75,7 +75,7 @@ const CheckOut1 = () => {
                     type="text"
                     className="peer block min-h-[auto] w-full rounded border-[1px] border-[grey] bg-transparent px-3 py-[0.32rem] leading-[2.15]"
                     id="exampleFormControlInput3"
-                    placeholder="Mobile No :" />
+                    placeholder="Mobile No.." />
                 </div>
                 <div className="relative mb-3" data-twe-input-wrapper-init>
                   <h3 className='py-1 text-base md:text-xl font-semibold'>Coaching Name :</h3>
@@ -83,7 +83,7 @@ const CheckOut1 = () => {
                     type="text"
                     className="peer block min-h-[auto] w-full rounded border-[1px] border-[grey] bg-transparent px-3 py-[0.32rem] leading-[2.15]"
                     id="exampleFormControlInput3"
-                    placeholder="Coaching Name :" />
+                    placeholder="Coaching Name.." />
                 </div>
               </div>
 
