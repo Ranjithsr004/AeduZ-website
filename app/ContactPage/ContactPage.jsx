@@ -27,7 +27,7 @@ const ContactPage = () => {
             <select name="role" id="role">
               <option value="-1">Select</option>
               <option value="mentor">Mentor</option>
-              <option value="mentie">Mentie</option>
+              <option value="mentie">Mentee</option>
               <option value="others">others</option>
             </select>
             <label >Write your message here</label>

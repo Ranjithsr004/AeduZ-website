@@ -63,11 +63,6 @@ const CheckOut3 = () => {
                 <h3 className='py-1 text-base md:text-xl font-semibold'>Pricing Plan:</h3>
       
                 <div className="relative mb-3" data-twe-input-wrapper-init>
-                    {/* <input
-                      type="text"
-                      className="peer block min-h-[auto] w-full rounded border-[1px] border-[grey] bg-transparent px-3 py-[0.32rem] leading-[2.15]"
-                      id="exampleFormControlInput3"
-                      placeholder="Pricing Plan:" /> */}
                       <div className="w-full rounded border-[1px] border-[grey] bg-transparent px-3 py-[0.32rem] leading-[2.15]">
                         <select className='w-full outline-none' name="dropdown" id="dropdown">
                           <option value="-1">Select</option>
