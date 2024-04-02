@@ -10,7 +10,7 @@ function Items() {
     return (
       <>
       <div className="boody">
-      <h1 className="heading text-[#37517e]">Why do Mentees Trust Us?</h1>
+      <h1 className="heading text-[#37517e] pb-4 md:text-5xl text-3xl">Why do Mentees Trust Us?</h1>
       <div className="wraper">{card}</div>
       </div>
       </>
