@@ -6,6 +6,7 @@ import OurTeam from "./Component/OurTeam/OurTeam";
 import Items from "./Component/Items/Items";
 import Footer from "./Component/Footer/Footer";
 import Testimonial from "./Component/Testimonial/Testimonial";
+import reviews from './datatest';
 import MentorReg from "./MentorReg/MentorReg";
 import MentorDash from "./MentorDash/MentorDash";
 import MentorDash2 from "./MentorDash2/MentorDash2";
@@ -19,7 +20,7 @@ export default function Home() {
         <Items />
         <Benefits />
         <OurTeam />
-        {/* <Testimonial reviews={reviews}/> */}
+        <Testimonial reviews={reviews}/>
         <Footer />
         {/* <MentorReg />
         <MentorDash />
