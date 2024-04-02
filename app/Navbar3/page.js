@@ -6,13 +6,13 @@ import Link from 'next/link'
 
 const navigation = [
     { name: 'Home', href: '/' },
-    { name: 'My Profile', href: '/Component/MenteeProfile' },
-    { name: 'Call History', href: '/Component/TableData' },
-    { name: 'Book Now', href: '/CheckOut' },
+    { name: 'My Profile', href: '/Component/MentorProfile' },
+    { name: 'Call History', href: '/Component/MentorCallHistory' },
+    { name: 'Earnings', href: '/' },
     { name: 'Contact Us', href: '/ContactPage' }
   ]
 
-  function Navbar2() {
+  function Navbar3() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   
     return (
@@ -92,4 +92,4 @@ const navigation = [
         </div>
     )
 }  
-export default Navbar2
+export default Navbar3

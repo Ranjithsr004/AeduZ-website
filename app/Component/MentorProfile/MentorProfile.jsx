@@ -1,3 +1,4 @@
+"use client"
 import React, { useState } from 'react';
 
 const MentorProfile = () => {
@@ -39,7 +40,7 @@ const MentorProfile = () => {
     };
 
     return (
-        <div className="container mx-auto p-4">
+        <div className="container mx-auto py-20 px-4">
             <h1 className="text-4xl font-bold mb-12 py-12 text-center text-[#37517e]">Mentor Profile Registration</h1>
             <form onSubmit={handleSubmit} className="max-w-xxl mx-auto ml-12 mr-12">
             <div className="flex flex-wrap mb-4 items-center">

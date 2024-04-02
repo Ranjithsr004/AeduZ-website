@@ -1,11 +1,11 @@
 import React from 'react'
-import Navbar2 from '../Navbar2/page'
 import MentorDash from './MentorDash'
+import Navbar3 from '../Navbar3/page'
 
 const page = () => {
   return (
     <div>
-      <Navbar2 />
+      <Navbar3 />
       <MentorDash />
     </div>
   )

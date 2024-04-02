@@ -1,16 +1,18 @@
 import React from 'react'
+import Link from 'next/link'
 
 const MentorReg = () => {
     return (
         <div className='h-screen relative mt-10 md:mt-10'>
             <div>
-              <button
+              <Link
+                href="MentorDash"
                 type="submit"
-                className="bg-[#3B71CA] inline-block absolute md:top-16 top-16 md:right-6 right-4 rounded bg-primary px-2 pb-2.5 pt-3 md:text-sm text-xs font-medium uppercase leading-normal text-white hover:bg-[#1266F1]"
+                className="bg-[#3B71CA] inline-block absolute md:top-20 top-16 md:right-6 right-4 rounded bg-primary px-2 pb-2.5 pt-3 md:text-sm text-xs font-medium uppercase leading-normal text-white hover:bg-[#1266F1]"
                 data-twe-ripple-color="light">
                 SKIP NOW {">"}
-              </button>
-                <div className='md:pt-24 pt-28'>
+              </Link>
+                <div className='md:pt-28 pt-28'>
                     <h1 className='text-center md:text-4xl text-2xl font-semibold'>Mentor Registration</h1>
                     <p className='text-center md:text-base text-sm py-2'>Start earning right from your first year of your college</p>
                 </div>
@@ -91,12 +93,13 @@ const MentorReg = () => {
                     </div>
                 </div>
                 <div className='m-auto md:w-[20vw] w-[40vw]'>
-                    <button
+                    <Link
+                        href="MentorDash"
                         type="submit"
-                        className="bg-[#3B71CA] md:my-10 my-6 inline-block w-full rounded bg-primary px-7 pb-2.5 pt-3 text-sm font-medium uppercase leading-normal text-white shadow-primary-3 transition duration-150 ease-in-out hover:bg-primary-accent-300 hover:bg-[#1266F1]"
+                        className="text-center bg-[#3B71CA] md:my-10 my-6 inline-block w-full rounded bg-primary px-7 pb-2.5 pt-3 text-sm font-medium uppercase leading-normal text-white shadow-primary-3 transition duration-150 ease-in-out hover:bg-primary-accent-300 hover:bg-[#1266F1]"
                         data-twe-ripple-color="light">
                         Register
-                    </button>
+                    </Link>
                 </div>
             </div>
           

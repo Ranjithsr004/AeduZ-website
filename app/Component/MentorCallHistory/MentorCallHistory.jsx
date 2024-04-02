@@ -53,7 +53,7 @@ const MentorCallHistory = () => {
       ];  
 
       return (
-        <div className="container mx-auto">
+        <div className="container mx-auto pt-20 md:px-20 px-2">
           <h1 className="text-3xl font-bold my-4 mt-12">Active Calls</h1>
           <MentorCallTable data={data} />
           <h1 className="text-3xl font-bold my-4 pt-12 mt-12">Past Calls</h1>

@@ -1,12 +1,12 @@
 import React from 'react'
-import MentorReg from './MentorReg'
-import Navbar3 from '../Navbar3/page'
+import MentorCallHistory from './MentorCallHistory'
+import Navbar3 from '@/app/Navbar3/page'
 
 const page = () => {
   return (
     <div>
       <Navbar3 />
-      <MentorReg />
+      <MentorCallHistory />
     </div>
   )
 }
