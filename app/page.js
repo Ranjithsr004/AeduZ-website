@@ -19,11 +19,11 @@ export default function Home() {
         <Items />
         <Benefits />
         <OurTeam />
-        {/* <Testimonial /> */}
+        {/* <Testimonial reviews={reviews}/> */}
         <Footer />
-        {/* <MentorReg /> */}
-        {/* <MentorDash /> */}
-        {/* <MentorDash2 /> */}
+        {/* <MentorReg />
+        <MentorDash />
+        <MentorDash2 /> */}
     </div>
   );
 }

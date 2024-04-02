@@ -1,9 +1,8 @@
 import React from 'react'
-import CallTable from '../CallTable/CallTable';
-import PastCall from '../PastCall/PastCall';
-import Navbar2 from '@/app/Navbar2/page';
+import MentorCallTable from '../MentorCallTable/MentorCallTable';
+import MentorPastCall from '../MentorPastCall/MentorPastCall';
 
-const TableData = () => {
+const MentorCallHistory = () => {
     const data = [
         {
           bookingDate: "20-03-2024",
@@ -54,17 +53,14 @@ const TableData = () => {
       ];  
 
       return (
-        <div>
-          <Navbar2 />
-          <div className="container mx-auto py-20 md:px-20 px-2">
-            <h1 className="text-3xl font-bold my-4 mt-12 text-[#37517e]">Active Calls</h1>
-            <CallTable data={data} />
-            <h1 className="text-3xl font-bold my-4 pt-8 mt-12 text-[#37517e]">Past Calls</h1>
-            <PastCall data2={data2} />
-          </div>
+        <div className="container mx-auto">
+          <h1 className="text-3xl font-bold my-4 mt-12">Active Calls</h1>
+          <MentorCallTable data={data} />
+          <h1 className="text-3xl font-bold my-4 pt-12 mt-12">Past Calls</h1>
+          <MentorPastCall data2={data2} />
         </div>
         
       );
 }
 
-export default TableData
+export default MentorCallHistory
