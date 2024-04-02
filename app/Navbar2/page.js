@@ -31,7 +31,8 @@ const navigation = [
                 className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
                 onClick={() => setMobileMenuOpen(true)}
               >
-                <Bars3Icon className="h-6 w-6" aria-hidden="true" />
+                {/* <Bars3Icon className="h-6 w-6" aria-hidden="true" /> */}
+                <img className='size-8' src="https://cdn-user-icons.flaticon.com/138337/138337623/1712082891242.svg?token=exp=1712083793~hmac=4b8c3faf357a1ce17356d0583dc6b091" />
               </button>
             </div>
             <div className="hidden lg:flex lg:gap-x-12">
