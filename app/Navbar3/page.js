@@ -8,7 +8,7 @@ const navigation = [
     { name: 'Home', href: '/' },
     { name: 'My Profile', href: '/Component/MentorProfile' },
     { name: 'Call History', href: '/Component/MentorCallHistory' },
-    { name: 'Earnings', href: '/' },
+    { name: 'Earnings', href: '/Component/EarningPage' },
     { name: 'Contact Us', href: '/ContactPage' }
   ]
 

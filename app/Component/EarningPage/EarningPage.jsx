@@ -2,7 +2,7 @@ import React from 'react';
 
 const EarningPage = () => {
   return (
-    <div className="container mx-auto px-4 py-8 mt-8">
+    <div className="container mx-auto md:px-8 px-4 py-24 mt-8">
       <div className="flex justify-between items-center mb-4">
         <div>
           <h1 className="text-3xl font-bold text-[#37517e]">Hello, Akshat 👋</h1>

@@ -34,7 +34,7 @@ const Testimonial = (props) => {
     }
 
   return (
-    <div className="flex flex-col w-[100vw] h-[100vh] justify-center items-center bg-[#F0F8FF]">
+    <div className="md:pt-0 py-10 flex flex-col w-[full] h-[screen] justify-center items-center bg-[#F0F8FF]">
     <div className="text-center">
     <h1 className="text-3xl md:text-4xl lg:text-5xl lg:py-12   font-bold  text-[#37517e] mb-12">Testimonials</h1>
     <div className='w-[85vw] md:w-[700px] bg-white flex flex-col justify-center items-center mt-10 p-10 transition-all duration-700 hover:shadow-xl rounded-md'>
