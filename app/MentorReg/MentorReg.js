@@ -8,15 +8,15 @@ const MentorReg = () => {
               <Link
                 href="MentorDash"
                 type="submit"
-                className="bg-[#3B71CA] inline-block absolute md:top-20 top-16 md:right-6 right-4 rounded bg-primary px-2 pb-2.5 pt-3 md:text-sm text-xs font-medium uppercase leading-normal text-white hover:bg-[#1266F1]"
+                className="bg-[#3B71CA] inline-block absolute md:top-20 top-20 md:right-6 right-4 rounded bg-primary px-2 py-2 md:text-sm text-xs font-medium uppercase leading-normal text-white hover:bg-[#1266F1]"
                 data-twe-ripple-color="light">
                 SKIP NOW {">"}
               </Link>
-                <div className='md:pt-28 pt-28'>
+                <div className='md:pt-28 pt-32'>
                     <h1 className='text-center md:text-4xl text-2xl font-semibold'>Mentor Registration</h1>
                     <p className='text-center md:text-base text-sm py-2'>Start earning right from your first year of your college</p>
                 </div>
-                <div className='w-[80vw] m-auto pt-6'>
+                <div className='w-[90vw] md:w-[80vw] m-auto pt-6'>
                     <div className="relative mb-3 flex" data-twe-input-wrapper-init>
                         <h1 className='md:w-[10vw] w-[50vw] flex md:justify-center items-center font-semibold text-black'>Full Name: </h1>
                         <input
