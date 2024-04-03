@@ -6,10 +6,10 @@ const MentorPastCall = ({data2}) => {
       <table className="min-w-full md:max-w-4xl lg:max-w-6xl border-collapse border border-gray-900 mx-auto">
         <thead className="bg-gray-300 ">
           <tr>
-            <th className="border border-gray-300 px-4 py-2">Booking date</th>
-            <th className="border border-gray-300 px-4 py-2">Booking time</th>
-            <th className="border border-gray-300 px-4 py-2">Status</th>
-            <th className="border border-gray-300 px-4 py-2">Feedback</th>
+            <th className="border border-gray-300 px-4 py-2 text-[#37517e]">Booking date</th>
+            <th className="border border-gray-300 px-4 py-2 text-[#37517e]">Booking time</th>
+            <th className="border border-gray-300 px-4 py-2 text-[#37517e]">Status</th>
+            <th className="border border-gray-300 px-4 py-2 text-[#37517e]">Feedback</th>
           </tr>
         </thead>
         <tbody>
