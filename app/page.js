@@ -7,6 +7,9 @@ import Items from "./Component/Items/Items";
 import Footer from "./Component/Footer/Footer";
 import Testimonial from "./Component/Testimonial/Testimonial";
 import reviews from './datatest';
+import Analysis from "./Dashboard/Analysis/Analysis";
+import CallLog from "./Dashboard/CallLog/CallLog";
+import SpecialStudent from "./Dashboard/SpecialStudent/SpecialStudent";
 
 export default function Home() {
   return (
@@ -19,6 +22,9 @@ export default function Home() {
         <OurTeam />
         <Testimonial reviews={reviews}/>
         <Footer />
+        {/* <Analysis />
+        <CallLog />
+        <SpecialStudent /> */}
     </div>
   );
 }
