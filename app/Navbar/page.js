@@ -6,8 +6,8 @@ import Link from 'next/link'
 
 const navigation = [
     { name: 'Home', href: '/' },
-    { name: 'Institutions', href: 'Institutions' },
-    { name: 'Contact Us', href: 'ContactPage' }
+    { name: 'Institutions', href: '../Institutions' },
+    { name: 'Contact Us', href: '../ContactPage' }
   ]
 
   function Navbar() {

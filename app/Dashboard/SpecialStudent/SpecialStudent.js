@@ -36,10 +36,10 @@ const SpecialStudent = () => {
           <SpecialStuData data2={data2} />
           <div>
             <h2 className='text-2xl font-semibold'>NOTE -</h2>
-            <div className='px-10 md:w-[40vw] pt-2'>
-                <p className='md:text-md'>Special need students are those students who are depressed and need psychologist, psychiatrist or medication.</p>
-                <p className='md:text-md'>Criticalness 5 - highly need help.</p>
-                <p className='md:text-md'>Criticalness 1 - less critical but need help.</p>
+            <div className='px-10 pt-2'>
+                <p className='md:text-xl'>Special need students are those students who are depressed and need psychologist, psychiatrist or medication.</p>
+                <p className='md:text-xl'>Criticalness 5 - highly need help.</p>
+                <p className='md:text-xl'>Criticalness 1 - less critical but need help.</p>
             </div>
           </div>
           <div className='flex justify-center pt-10'>

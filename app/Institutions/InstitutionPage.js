@@ -13,7 +13,7 @@ const InstitutionPage = () => {
             </div>
             <div className='flex justify-center md:mb-2 mb-10'>
                 <Link
-                href="Registration"
+                href="Dashboard/Analysis"
                 type="submit"
                 className="bg-[#4F46E5] rounded-md bg-primary px-7 pb-2.5 pt-3 text-sm font-medium uppercase leading-normal text-white shadow-primary-3 transition duration-150 ease-in-out hover:bg-primary-accent-300 hover:bg-[#1266F1]"
                 data-twe-ripple-color="light">
