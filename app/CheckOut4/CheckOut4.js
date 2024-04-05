@@ -63,9 +63,9 @@ const CheckOut4 = () => {
                 </div>
                 <div className="md:py-2 py-6 flex justify-end px-2 md:px-40">
                       <Link
-                        href="#"
-                        className="rounded-md bg-indigo-600 px-6 py-3 text-md font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
-                        Complete
+                        href="./Component/PaySuccess"
+                        className="rounded-md bg-green-600 px-6 py-3 text-md font-semibold text-white shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+                        Pay Now
                       </Link>
                 </div>
               </div>

@@ -1,32 +1,37 @@
+"use client"
 import React from 'react'
 import SpecialStuData from '../SpecialStuData/SpecialStuData';
 
 const SpecialStudent = () => {
+
+    const handleClick = () => {
+      alert("ARE YOU SURE?")
+    }
 
     const data2 = [
         {
           Name: "Arnav",
           Criticalness: "1",
           Your_Comments: "Connected to parents",
-          Solved: <input className='size-5' type='checkbox'/>,
+          Solved: <input onClick={handleClick} className='size-5' type='checkbox'/>,
         },
         {
           Name: "Ranjit",
           Criticalness: "2",
           Your_Comments: "Talked and sent to their home",
-          Solved: <input className='size-5' type='checkbox'/>,
+          Solved: <input onClick={handleClick} className='size-5' type='checkbox'/>,
         },
         {
           Name: "Aditya",
           Criticalness: "5",
           Your_Comments: "Talked and sent to their home",
-          Solved: <input className='size-5' type='checkbox'/>,
+          Solved: <input onClick={handleClick} className='size-5' type='checkbox'/>,
         },
         {
           Name: "Apoorv",
           Criticalness: "4",
           Your_Comments: "Talked and sent to their home",
-          Solved: <input className='size-5' type='checkbox'/>,
+          Solved: <input onClick={handleClick} className='size-5' type='checkbox'/>,
         },
       ];  
 
