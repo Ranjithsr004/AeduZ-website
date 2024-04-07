@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const InstitutionPage = () => {
   return (
-    <div>
+    <div className='h-screen bg-[#F0F8FF]'>
         <Navbar />
         <div className='h-[80vh] mt-6 md:mt-14'>
             <div className='text-center'>

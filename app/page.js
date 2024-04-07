@@ -8,6 +8,7 @@ import Footer from "./Component/Footer/Footer";
 import Testimonial from "./Component/Testimonial/Testimonial";
 import reviews from './datatest';
 
+
 export default function Home() {
   return (
     <div>
@@ -19,7 +20,6 @@ export default function Home() {
         <OurTeam />
         <Testimonial reviews={reviews}/>
         <Footer />
-
     </div>
   );
 }
