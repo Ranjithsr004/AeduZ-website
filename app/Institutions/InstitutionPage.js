@@ -1,11 +1,9 @@
 import React from 'react'
-import Navbar from '../Navbar/page'
 import Link from 'next/link'
 
 const InstitutionPage = () => {
   return (
     <div className='h-screen bg-[#F0F8FF]'>
-        <Navbar />
         <div className='h-[80vh] mt-6 md:mt-14'>
             <div className='text-center'>
                 <h1 className='md:text-5xl text-3xl font-bold pb-6 md:pb-10 pt-24 text-blue-800'><span className='font-light'>Welcome </span> Institutes,</h1>
@@ -21,7 +19,7 @@ const InstitutionPage = () => {
                 </Link>
             </div>
             <div className='pt-10 md:flex flex justify-around w-full'>
-            <img className='rounded-md md:h-[40vh] h-[30vh] md:w-[35%] w-[80%]' src='https://mycareersaathi.com/wp-content/uploads/2023/02/Career-Counselling-After-12th.jpg'/>
+            <img className='rounded-3xl md:h-[40vh] h-[30vh] md:w-[35%] w-[80%]' src='https://mycareersaathi.com/wp-content/uploads/2023/02/Career-Counselling-After-12th.jpg'/>
             {/* <img className='hidden md:block rounded-md md:h-[42vh] md:w-[35%]' src='https://i0.wp.com/www.mindgroom.com/wp-content/uploads/2021/08/online-career-counselling-sessions-1-e1627978053936.jpg?resize=562%2C565&ssl=1'/> */}
             </div>
         </div>
