@@ -17,7 +17,7 @@ const HelloInsti = () => {
         </div>
 
         <div className='md:w-[50%] lg:pt-10 flex justify-center items-center lg:block md:block'>
-          <img className='md:rounded-3xl rounded-2xl h-[25vh] md:h-[35vh] w-[70vw] md:w-[35vw]' src='https://trafft.com/wp-content/uploads/2022/10/6461-768x364.jpg' alt='HOME PAGE IMAGE'/>
+          <img className='md:rounded-3xl rounded-2xl h-[25vh] md:h-[35vh] w-[70vw] md:w-[35vw]' src='https://mycareersaathi.com/wp-content/uploads/2023/02/Career-Counselling-After-12th.jpg' alt='HOME PAGE IMAGE'/>
         </div>
 
       </div>
