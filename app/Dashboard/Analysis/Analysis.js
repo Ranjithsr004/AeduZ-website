@@ -76,22 +76,26 @@ export default function Analysis() {
   return (
     <div className='w-full md:px-20 px-2 py-2'>
       <h1 className='text-3xl text-center font-semibold pt-10'>DASHBOARD</h1>
-      <div className='md:mb-20 mb-10 mt-10 flex md:gap-10 gap-2 justify-between text-center'>
-        <div className='h-[15vh] md:w-[30vw] w-[20vw] border-[2px] rounded-2xl border-[grey] bg-[#F0F8FF] hover:scale-[1.1] hover:bg-blue-200 ease-in duration-200'>
-          <h2 className='md:text-3xl text-xl md:py-4 py-2'>2000</h2>
-          <p className='md:text-2xl text-xs'>Total students enrolled</p>
+      <div className='md:mb-20 mb-10 mt-10 flex md:gap-10 gap-2 text-center'>
+        <div className='w-[50%]'>
+          <div className='mb-2 h-[15vh] w-[100%] border-[2px] rounded-2xl border-[grey] bg-[#F0F8FF] hover:scale-[1.1] hover:bg-blue-200 ease-in duration-200'>
+            <h2 className='md:text-3xl text-xl md:py-4 py-2'>2000</h2>
+            <p className='md:text-2xl text-sm'>Total students enrolled</p>
+          </div>
+          <div className='h-[15vh] w-[100%] border-[2px] rounded-2xl border-[grey] bg-[#F0F8FF] hover:scale-[1.1] hover:bg-blue-200 ease-in duration-200'>
+            <h2 className='md:text-3xl text-xl md:py-4 py-2'>4000</h2>
+            <p className='md:text-2xl text-sm'>Total calls</p>
+          </div>
         </div>
-        <div className='h-[15vh] md:w-[30vw] w-[20vw] border-[2px] rounded-2xl border-[grey] bg-[#F0F8FF] hover:scale-[1.1] hover:bg-blue-200 ease-in duration-200'>
-          <h2 className='md:text-3xl text-xl md:py-4 py-2'>4000</h2>
-          <p className='md:text-2xl text-xs'>Total calls</p>
-        </div>
-        <div className='h-[15vh] md:w-[30vw] w-[20vw] border-[2px] rounded-2xl border-[grey] bg-[#F0F8FF] hover:scale-[1.1] hover:bg-blue-200 ease-in duration-200'>
-          <h2 className='md:text-3xl text-xl md:py-4 py-2'>3000</h2>
-          <p className='md:text-2xl text-xs'>Total Hours</p>
-        </div>
-        <div className='h-[15vh] md:w-[30vw] w-[20vw] border-[2px] rounded-2xl border-[grey] bg-[#F0F8FF] hover:scale-[1.1] hover:bg-blue-200 ease-in duration-200'>
-          <h2 className='md:text-3xl text-xl md:py-4 py-2'>4.9</h2>
-          <p className='md:text-2xl text-xs'>Average Rating</p>
+        <div className='w-[50%]'>
+          <div className='mb-2 h-[15vh] w-[100%] border-[2px] rounded-2xl border-[grey] bg-[#F0F8FF] hover:scale-[1.1] hover:bg-blue-200 ease-in duration-200'>
+            <h2 className='md:text-3xl text-xl md:py-4 py-2'>3000</h2>
+            <p className='md:text-2xl text-sm'>Total Hours</p>
+          </div>
+          <div className='h-[15vh] w-[100%] border-[2px] rounded-2xl border-[grey] bg-[#F0F8FF] hover:scale-[1.1] hover:bg-blue-200 ease-in duration-200'>
+            <h2 className='md:text-3xl text-xl md:py-4 py-2'>4.9</h2>
+            <p className='md:text-2xl text-sm'>Average Rating</p>
+          </div>
         </div>
       </div>
       <div className='flex gap-4 items-center mb-10 md:mb-0'>

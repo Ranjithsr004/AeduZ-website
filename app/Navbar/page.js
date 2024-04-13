@@ -41,7 +41,7 @@ const navigation = [
               ))}
             </div>
             <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-              <Link href="LogIn" className="rounded-md bg-indigo-600 px-5 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+              <Link href="../LogIn" className="rounded-md bg-indigo-600 px-5 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
                 Log in
               </Link>
             </div>
@@ -78,7 +78,7 @@ const navigation = [
                   </div>
                   <div className="py-6">
                     <Link
-                      href="LogIn"
+                      href="../LogIn"
                       className="rounded-md bg-indigo-600 px-5 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                     >
                       Log in
