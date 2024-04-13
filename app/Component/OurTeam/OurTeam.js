@@ -24,7 +24,9 @@ const OurTeam = () => {
             </p>
           </div>
           <div className='mt-2 flex justify-center'>
-            <img className='size-10' src='https://cdn-icons-png.flaticon.com/128/3536/3536505.png' />
+            <a href='https://www.linkedin.com/in/arnav-upadhyay7/' target='_blank'> 
+              <img className='size-10' src='https://cdn-icons-png.flaticon.com/128/3536/3536505.png' />
+            </a>
           </div>
         </div>
 
@@ -39,7 +41,9 @@ const OurTeam = () => {
             </p>
           </div>
           <div className='md:mt-14 mt-2 flex justify-center'>
+          <a href='' target='_blank'>
             <img className='size-10' src='https://cdn-icons-png.flaticon.com/128/3536/3536505.png' />
+          </a>
           </div>
         </div>
 
@@ -55,7 +59,9 @@ const OurTeam = () => {
             </p>
           </div>
           <div className='md:mt-8 mt-2 flex justify-center'>
+          <a href='' target='_blank'>
             <img className='size-10' src='https://cdn-icons-png.flaticon.com/128/3536/3536505.png' />
+          </a>
           </div>
         </div>
 
@@ -72,7 +78,9 @@ const OurTeam = () => {
             </p>
           </div>
           <div className='md:mt-6 mt-2 flex justify-center'>
+          <a href='' >
             <img className='size-10' src='https://cdn-icons-png.flaticon.com/128/3536/3536505.png' />
+          </a>
           </div>
         </div>
         
