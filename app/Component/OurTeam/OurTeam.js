@@ -24,7 +24,7 @@ const OurTeam = () => {
             </p>
           </div>
           <div className='mt-2 flex justify-center'>
-            <a href='https://www.linkedin.com/in/arnav-upadhyay7/' target='_blank'> 
+            <a href='https://www.linkedin.com/in/dhananjay-kumar-1531a0211/' target='_blank'> 
               <img className='size-10' src='https://cdn-icons-png.flaticon.com/128/3536/3536505.png' />
             </a>
           </div>
@@ -41,7 +41,7 @@ const OurTeam = () => {
             </p>
           </div>
           <div className='md:mt-14 mt-2 flex justify-center'>
-          <a href='' target='_blank'>
+          <a href='https://www.linkedin.com/in/aaaddditya/' target='_blank'>
             <img className='size-10' src='https://cdn-icons-png.flaticon.com/128/3536/3536505.png' />
           </a>
           </div>
@@ -59,7 +59,7 @@ const OurTeam = () => {
             </p>
           </div>
           <div className='md:mt-8 mt-2 flex justify-center'>
-          <a href='' target='_blank'>
+          <a href='https://www.linkedin.com/in/shubham-jadhav-281222222/' target='_blank'>
             <img className='size-10' src='https://cdn-icons-png.flaticon.com/128/3536/3536505.png' />
           </a>
           </div>
@@ -78,7 +78,7 @@ const OurTeam = () => {
             </p>
           </div>
           <div className='md:mt-6 mt-2 flex justify-center'>
-          <a href='' >
+          <a href='https://www.linkedin.com/in/akshat-jain-03809a1ba/' target='_blank'>
             <img className='size-10' src='https://cdn-icons-png.flaticon.com/128/3536/3536505.png' />
           </a>
           </div>
