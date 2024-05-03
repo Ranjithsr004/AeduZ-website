@@ -1,5 +1,5 @@
 import React from 'react'
-import './My_Profile.css'
+import './My_profile.css'
 const My_Profile = () => {
   return (
     <div className="containeer">
