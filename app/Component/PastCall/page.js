@@ -1,10 +1,10 @@
 import React from 'react'
-import PastCall from './PastCall'
+// import PastCall from './PastCall'
 
 const page = () => {
   return (
     <div>
-      <PastCall />
+      {/* <PastCall /> */}
     </div>
   )
 }

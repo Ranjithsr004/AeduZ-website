@@ -1,10 +1,10 @@
 import React from 'react'
-import CallTable from './CallTable'
+// import CallTable from './CallTable'
 
 const page = () => {
   return (
     <div>
-      <CallTable />
+      {/* <CallTable /> */}
     </div>
   )
 }

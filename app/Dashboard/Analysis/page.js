@@ -1,5 +1,5 @@
 import React from 'react'
-import Analysis from './Analysis'
+// import Analysis from './Analysis'
 import Navbar from '@/app/Navbar/page'
 import CallLog from '../CallLog/CallLog'
 import SpecialStudent from '../SpecialStudent/SpecialStudent'
@@ -10,7 +10,7 @@ const page = () => {
   return (
     <div>
       <Navbar />
-      <Analysis />
+      {/* <Analysis /> */}
       <CallLog />
       <SpecialStudent />
       <Footer />
